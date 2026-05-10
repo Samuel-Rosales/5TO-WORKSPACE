@@ -51,6 +51,7 @@ Build / Preview (frontend)
 Frontend preferences
 - Prefer dynamic islands with React for interactive UI: use Astro + React islands (client islands) for sections that need hydration instead of hydrating entire pages.
 - Prefer "primary" design-system components for critical actions and visible UI (CTAs, main forms). When in doubt, choose the primary variant for new interactive controls.
+- Always use the alerts utility at FRONTEND-5TO/src/utils/alerts.ts for user notifications (toasts, confirmations, etc).
 
 Where docs and API specs live
 - Frontend docs: FRONTEND-5TO/src/content/docs/docs/ (served by the Astro dev server)
